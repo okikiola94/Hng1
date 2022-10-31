@@ -269,9 +269,7 @@ width: 80%;
   height: 24px;
   }
 
-  .avatar .mobile-content{
-    display: none;
-  }
+  
 
 
   @media screen and (max-width:950px) {
@@ -279,7 +277,7 @@ width: 80%;
         display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2% 0%;
+    padding: 10% 0%;
     gap: 24px;
     
     width: 80%;
@@ -463,7 +461,7 @@ width: 100%;
     gap: 12px;
     
     width: 100%;
-    height: 76px;
+    height: 56px;
     
     /* Shadow/xs */
     
@@ -530,7 +528,5 @@ width: 100%;
   height: 24px;
   }
 
-  .avatar .web-content{
-    display: none;
-        }
+ 
   }
