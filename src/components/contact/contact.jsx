@@ -11,7 +11,7 @@ const Contact=()=> {
     const [message, SetMessage] = useState("")
     const handleSubmit = (e)=>{
          // alert(name+" we"+email+" we"+message+" all this")
-         window.location.href = `mailto:${email}?subject=${name}&body=${message}`
+         window.location.href = ``
          e.preventDefault();
     }
     return(<div className=" Main-Section">
