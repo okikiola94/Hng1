@@ -6,6 +6,7 @@ import Footer from "../footer/footer";
 
 const Contact=()=> {
     const [name, SetName] = useState("")
+    const [lastname, SetLastname] = useState("")
     const [email, SetEmail] = useState("")
     const [message, SetMessage] = useState("")
     const handleSubmit = (e)=>{
@@ -34,7 +35,7 @@ const Contact=()=> {
                          </div>
                          <div className='Name-input'>
                             <p>Last Name</p>
-                              <input type="text" placeholder="Enter your last name" value={name} onChange={(e) => { SetName(e.target.value) }} name="name" required />
+                              <input type="text" placeholder="Enter your last name" value={lastname} onChange={(e) => { SetLastname(e.target.value) }} name="name" required />
                          </div>
                          </div>
                          <div className='Email-container'>
