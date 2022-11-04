@@ -10,8 +10,8 @@ const Contact=()=> {
     const [email, SetEmail] = useState("")
     const [message, SetMessage] = useState("")
     const handleSubmit = (e)=>{
-         // alert(name+" we"+email+" we"+message+" all this")
-         window.location.href = ``
+         alert(name+" we"+email+" we"+message+" all this")
+         window.location.href = `https://okikiola-zuri.netlify.app/`
          e.preventDefault();
     }
     return(<div className=" Main-Section">
@@ -23,6 +23,8 @@ const Contact=()=> {
                 Hi there, contact me to ask about anything you have in mind.
             </p>
         </div>
+
+        
 
         
                <div className='form'>
