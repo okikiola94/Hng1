@@ -1,0 +1,47 @@
+.header-section{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 720px;
+height: 94px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.header-section h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height, or 122% */
+
+letter-spacing: -0.02em;
+
+/* Gray/900 */
+
+color: #101828;
+}
+
+.header-section p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    
+    /* Gray/600 */
+    
+    color: #475467; 
+}

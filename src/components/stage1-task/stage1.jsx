@@ -1,6 +1,10 @@
 import "./stage1.css";
 import { useState } from "react";
 import PopUp from "../popup/popup";
+// import Contact from "../contact/contact";
+import { Link } from "react-router-dom";
+
+
 const Stage1 =(props)=> {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
@@ -18,8 +22,6 @@ const Stage1 =(props)=> {
             <div className="avatar-content">
            <img onClick={() => {
           setIsNavExpanded(!isNavExpanded);}}className="web-content" src={`${process.env.PUBLIC_URL}/assets/images/Content.png`} alt="content" /> 
-          {/* <img onClick={() => {
-          setIsNavExpanded(!isNavExpanded);}} className="mobile-content" src={`${process.env.PUBLIC_URL}/assets/images/Contents.png`} alt="content" />  */}
             </div>
           </div>
           </div>
@@ -41,6 +43,10 @@ const Stage1 =(props)=> {
             </div>
             <div className="link-container">
             <a id=" book__design" href="https://books.zuri.team/design-rules">Design Books</a>
+          </div>
+          <div className="link-container">
+          <Link to="/Contact">Contact Me</Link>
+            {/* <a id="contact" onClick={() => props.goToContact()} className={props.activeRoute === 'Contact'} href="/Contact">Contact Me</a> */}
           </div>
   </div>
   </div>

@@ -2,6 +2,7 @@ import React from "react";
 import "./popup.css";
 
 
+
 const PopUp = (props) => {
     return ( 
       <div className="popup-backdrop" onClick={props.exit} >
