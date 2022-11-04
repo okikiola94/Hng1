@@ -43,11 +43,11 @@
   
   input.checked::before {
     content: "\2714";
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #fff;
     position: absolute;
-    right: 1px;
-    top: -5px;
+    right: 2px;
+    top: -1px;
   }
   /* input:checked {
     background-color: #007a7e;
