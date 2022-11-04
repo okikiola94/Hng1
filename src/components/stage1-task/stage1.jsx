@@ -1,6 +1,8 @@
 import "./stage1.css";
 import { useState } from "react";
 import PopUp from "../popup/popup";
+import Footer from '../footer/footer';
+
 // import Contact from "../contact/contact";
 import { Link } from "react-router-dom";
 
@@ -56,6 +58,8 @@ const Stage1 =(props)=> {
           <a className="github" href="https://github.com/okikiola94">   <img src={`${process.env.PUBLIC_URL}/assets/images/github-icon.png`} alt="github-icon" /></a>
           </div>
           </div>
+          <Footer/>
+
           </div>
 
           )}
