@@ -9,7 +9,8 @@ position: absolute;
 width: 80%;
 height: 0px;
 left: 0px;
-/* top: 998px; */
+bottom: 0;
+top: 998px;
     
   }
   
@@ -59,7 +60,7 @@ height: 0px;
   width: 80%;
   height: 0px;
   left: 0px;
-  /* top: 998px; */
+  top: 800px;
       
     }
 

@@ -1,35 +1,30 @@
 import "./stage1.css";
 import { useState } from "react";
 import PopUp from "../popup/popup";
-import Footer from '../footer/footer';
-
 // import Contact from "../contact/contact";
 import { Link } from "react-router-dom";
-
-
+import Footer from "../footer/footer";
 const Stage1 =(props)=> {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
-
-    return (
+  return (
+      <>
       <div className="link-tree">
         <div className="Main-section">
             <div className="Content">
         <div className="header-image-container">
-        <img src={`${process.env.PUBLIC_URL}/assets/images/header-img.jpg`} alt="header-img" />  
+        <img src={`${process.env.PUBLIC_URL}/assets/images/header-img.jpg`} alt="header-img" />
         <div className="twitter">
         <a className="header-image-label" href="https://twitter.com/okikiola_eniola">Okikiola O Farominiyi</a>
           </div>
-
           <div className="avatar">
             <div className="avatar-content">
            <img onClick={() => {
-          setIsNavExpanded(!isNavExpanded);}}className="web-content" src={`${process.env.PUBLIC_URL}/assets/images/Content.png`} alt="content" /> 
+          setIsNavExpanded(!isNavExpanded);}}className="web-content" src={`${process.env.PUBLIC_URL}/assets/images/Content.png`} alt="content" />
             </div>
           </div>
           </div>
           {isNavExpanded && <PopUp exit={() => setIsNavExpanded(false)} />
       }
-  
   <div className="link-section">
           <div className="link-container">
           <a  id="btn__zuri"  href="https://training.zuri.team/">Zuri Team</a>
@@ -54,13 +49,11 @@ const Stage1 =(props)=> {
   </div>
           <div className="social-link">
           <a className="slack" href="http://hng9.slack.com">   <img src={`${process.env.PUBLIC_URL}/assets/images/slack-icon.png`} alt="slack-icon" /></a>
-  
           <a className="github" href="https://github.com/okikiola94">   <img src={`${process.env.PUBLIC_URL}/assets/images/github-icon.png`} alt="github-icon" /></a>
           </div>
           </div>
-          <Footer/>
-
-          </div>
-
+      </div>
+      <Footer/>
+    </>
           )}
             export default Stage1;
