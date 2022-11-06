@@ -42,7 +42,7 @@ const Stage1 =(props)=> {
             <a id=" book__design" href="https://books.zuri.team/design-rules">Design Books</a>
           </div>
           <div className="link-container">
-          <Link to="/Contact" id="contact">Contact Me</Link>
+          <Link to="/contact" id="contact">Contact Me</Link>
             {/* <a id="contact" onClick={() => props.goToContact()} className={props.activeRoute === 'Contact'} href="/Contact">Contact Me</a> */}
           </div>
   </div>
