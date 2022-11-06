@@ -151,7 +151,7 @@ order: 0;
 flex-grow: 1;
 }
 
-.Name-input p{
+.Name-input label{
     width: fit-content;
 height: 20px;
 
@@ -234,7 +234,7 @@ height: 70px;
 
 }
 
-.Email-container p{
+.Email-container label{
     width: 36px;
 height: 20px;
 
@@ -304,7 +304,7 @@ height: 158px;
 
 }
 
-.message-container p{
+.message-container label{
     width: 61px;
 height: 20px;
 

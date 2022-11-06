@@ -32,23 +32,24 @@ const Contact=()=> {
                <div className='input-container'>
                     <div className="Name-container">
                          <div className='Name-input'>
-                            <p>First Name</p>
-                              <input type="text" id="first_name" placeholder="Enter your first name" value={name} onChange={(e) => { SetName(e.target.value) }} name="name" required />
+
+                            <label htmlFor="first_name">First Name</label>
+                              <input type="text" id="first_name" placeholder="Enter your first name" value={name} onChange={(e) => { SetName(e.target.value) }} name="first_name" required />
                          </div>
                          <div className='Name-input'>
-                            <p>Last Name</p>
-                              <input type="text"  id="last_name" placeholder="Enter your last name" value={lastname} onChange={(e) => { SetLastname(e.target.value) }} name="name" required />
+                            <label htmlFor="last_name">Last Name</label>
+                              <input type="text"  id="last_name" placeholder="Enter your last name" value={lastname} onChange={(e) => { SetLastname(e.target.value) }} name="last_name" required />
                          </div>
                          </div>
                          <div className='Email-container'>
                             <div className="Input-label">
-                            <p>Email</p>
+                            <label htmlFor="email">Email</label>
                               <input type="text" id="email" placeholder="yourname@email.com" value={email} onChange={(e) => { SetEmail(e.target.value) }} name="email" required />
                               </div>
                          </div>
                          <div className='message-container'>
                             <div className="message-label">
-                                <p>Message</p>
+                                <label htmlFor="message">Message</label>
                               <textarea id="message" type="text" placeholder="Send me a message and I'll reply you as soon as possible..." value={message} onChange={(e) => { SetMessage(e.target.value) }} name="message" required />
                               </div>
                          </div>
