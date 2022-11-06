@@ -3,16 +3,16 @@ import React, { useState } from 'react';
 import Checkbox from "../checkbox/checkbox";
 import Footer from "../footer/footer";
 
-
 const Contact=()=> {
     const [name, SetName] = useState("")
     const [lastname, SetLastname] = useState("")
     const [email, SetEmail] = useState("")
     const [message, SetMessage] = useState("")
     const handleSubmit = (e)=>{
-         alert(name+" we"+email+" we"+message+" all this")
+        e.preventDefault();
+        //  alert(name+" we"+email+" we"+message+" all this")
          window.location.href = `https://okikiola-zuri.netlify.app/`
-         e.preventDefault();
+        
     }
     return(<div className=" Main-Section">
         <div className="Contact-Section-Content">

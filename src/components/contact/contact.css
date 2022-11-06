@@ -336,7 +336,7 @@ flex-direction: row;
 align-items: flex-start;
 padding: 12px 14px;
 gap: 8px;
-
+resize: none;
 width: 720px;
 height: 132px;
 
@@ -653,6 +653,7 @@ color: #FFFFFF;
         padding: 12px 14px;
         gap: 8px;
         width: 100%;
+        resize: none;
         height: 132px;
         background: #FFFFFF;
         border: 1px solid #D0D5DD;

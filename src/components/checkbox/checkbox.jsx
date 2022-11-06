@@ -10,8 +10,8 @@ const Checkbox=({ label, checked, ...props })=> {
           <input type="checkbox"
            checked={isChecked}
             onChange={() => setIsChecked((prev) => !prev)}
-          className={isChecked ? "checked" : "true"}
-          {...props} 
+          className={isChecked ? "checked" : "true" }
+          {...props} required 
           />
           <span>{label}</span>
         </label>
