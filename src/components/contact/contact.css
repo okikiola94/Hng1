@@ -304,7 +304,7 @@ height: 158px;
 
 }
 
-.message-container label{
+.message-container label {
     width: 61px;
 height: 20px;
 
@@ -369,7 +369,7 @@ color: #667085;
 
 }
 
-label{
+ .checkbox-container label{
     display: flex;
 flex-direction: row;
 align-items: flex-start;
