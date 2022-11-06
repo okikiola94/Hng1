@@ -44,7 +44,7 @@ const Contact=()=> {
                          <div className='Email-container'>
                             <div className="Input-label">
                             <label htmlFor="email">Email</label>
-                              <input type="text" id="email" placeholder="yourname@email.com" value={email} onChange={(e) => { SetEmail(e.target.value) }} name="email" required />
+                              <input type="email" id="email" placeholder="yourname@email.com" value={email} onChange={(e) => { SetEmail(e.target.value) }} name="email" required />
                               </div>
                          </div>
                          <div className='message-container'>

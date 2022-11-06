@@ -583,6 +583,18 @@ color: #FFFFFF;
             height: 70px;
         
     }
+    .Email-container label{
+        width: 36px;
+    height: 10px;
+    
+    /* Text sm/Medium */
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 5px;
+    }
 
     .Input-label {
         display: flex;
