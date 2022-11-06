@@ -43,7 +43,6 @@ const Stage1 =(props)=> {
           </div>
           <div className="link-container">
           <Link to="/contact" id="contact">Contact Me</Link>
-            {/* <a id="contact" onClick={() => props.goToContact()} className={props.activeRoute === 'Contact'} href="/Contact">Contact Me</a> */}
           </div>
   </div>
   </div>
