@@ -33,30 +33,30 @@ const Contact=()=> {
                     <div className="Name-container">
                          <div className='Name-input'>
                             <p>First Name</p>
-                              <input type="text" placeholder="Enter your first name" value={name} onChange={(e) => { SetName(e.target.value) }} name="name" required />
+                              <input type="text" id="first_name" placeholder="Enter your first name" value={name} onChange={(e) => { SetName(e.target.value) }} name="name" required />
                          </div>
                          <div className='Name-input'>
                             <p>Last Name</p>
-                              <input type="text" placeholder="Enter your last name" value={lastname} onChange={(e) => { SetLastname(e.target.value) }} name="name" required />
+                              <input type="text"  id="last_name" placeholder="Enter your last name" value={lastname} onChange={(e) => { SetLastname(e.target.value) }} name="name" required />
                          </div>
                          </div>
                          <div className='Email-container'>
                             <div className="Input-label">
                             <p>Email</p>
-                              <input type="text" placeholder="yourname@email.com" value={email} onChange={(e) => { SetEmail(e.target.value) }} name="email" required />
+                              <input type="text" id="email" placeholder="yourname@email.com" value={email} onChange={(e) => { SetEmail(e.target.value) }} name="email" required />
                               </div>
                          </div>
                          <div className='message-container'>
                             <div className="message-label">
                                 <p>Message</p>
-                              <textarea type="text" placeholder="Send me a message and I'll reply you as soon as possible..." value={message} onChange={(e) => { SetMessage(e.target.value) }} name="message" required />
+                              <textarea id="message" type="text" placeholder="Send me a message and I'll reply you as soon as possible..." value={message} onChange={(e) => { SetMessage(e.target.value) }} name="message" required />
                               </div>
                          </div>
                          <div className="checkbox-container">
                          <Checkbox label="You agree to provide your contact to Okikiola who may contact you." />
                          </div>
                          </div>
-                         <button type='submit'>Send message</button>
+                         <button id="btn__submit" type='submit'>Send message</button>
                     </form>
                </div>
           </div>
